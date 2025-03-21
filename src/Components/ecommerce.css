@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.shop-section{
+    background-color: white;
+    padding: 5rem;
+}
+.shop-container{
+    width: 88vw;
+    margin: 0 auto;
+}
+.shop-title{
+    color: black;
+    text-align: center;
+    font-size: 2.5rem;
+}
+.shop-description{
+    color: grey;
+    text-align: center;
+    margin-top: 25px;
+}
+.shop-items{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    margin-top: 2rem;
+    padding-left: 3rem;
+}
+.shop-product{
+    margin: 2rem;
+    position: relative;
+}
+.shop-product-content{
+    background-color: lightgray;
+    padding: 3rem 0.5rem 2rem 0.5rem;
+    cursor: pointer;
+    border-radius: 5%;
+    /* box-shadow: 2px 3px 25px 1px grey; */
+}
+img{
+    width: 100%;
+}
+.shop-product-img{
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 100%;
+    transition: background 0.5s;
+}
+.shop-product-buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    transition: opacity 0.6s ease;
+}
+.shop-cart-btn, 
+.shop-buy-btn{
+    padding: 0.5rem;
+    background: transparent;
+    width: 125px;
+    border: 1px solid black;
+    border: none;
+    transition: all 0.6s ease;
+}
+.shop-cart-btn{
+    background-color: black;
+    color: white;
+}
+.shop-cart-btn:hover{
+    background-color: chartreuse;
+}
+.shop-buy-btn{
+    color: black;
+    background-color: white;
+}
+.shop-buy-btn:hover{
+    background-color: coral;
+}
+.shop-product-info{
+    background-color: white;
+    padding: 2rem;
+}
+.shop-product-name{
+    color: black;
+    font-size: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    font-weight: bold;
+    background-color: white;
+}
+.shop-product-img img{
+    transition: transform 0.6s ease;
+}
+.shop-product:hover .shop-product-img img{
+    transform: scale(1.1);
+}
+.shop-product:hover .shop-product-img{
+    background: aquamarine;
+}
+.shop-product:hover .shop-product-buttons{
+    opacity: 1;
+}
+.shop-original-price, .shop-discount-price{
+    display: inline-block;
+    padding-top: 0.6rem ;
+    padding-left: 0.6rem;
+}
+.shop-original-price{
+    text-decoration: line-through;
+    color: aquamarine;
+}
+.shop-offer-info .shop-discount{
+    background: aquamarine;
+    padding: 0.5rem;
+    display: inline-block;
+    color: white;
+    letter-spacing: 3px;
+    position: absolute;
+    transform: rotate(180deg);
+    writing-mode: vertical-rl;
+    top: 0;
+    left: 0;
+}

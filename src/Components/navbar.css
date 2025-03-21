@@ -1,0 +1,51 @@
+body {
+  background-color: #1f242d;
+}
+.header {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f242d;
+  padding: 15px 30px;
+  color: white;
+  margin-right: 150px;
+  z-index: 1;
+}
+
+.logo {
+  height: 60px;
+  width: 60px;
+  margin-left: 180px;
+  border-radius: 100px;
+}
+
+
+.nav-bar {
+  display: flex;
+}
+
+.list {
+  display: flex; 
+  list-style: none;
+  gap: 20px; 
+  padding: 0;
+  margin: 0;
+  margin-right: 300px;
+}
+
+
+.list li {
+  cursor: pointer;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.list li:hover a {
+  color: yellow; 
+}
+a {
+  text-decoration: none;
+  color: white;
+}
