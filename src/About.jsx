@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import Pic from "../../front/src/Images/about.jpg";
+import Pic from "./about.jpg";
 
 function About() {
   return (
@@ -18,7 +18,7 @@ function About() {
             Web <span className="developer">Developer!</span>
           </h3>
           <p>
-            Hey, I'm Nithish! I'm currently pursuing my B.Tech at Bharatiya
+            Hey, I'm Nithish! I've completed my B.Tech at Bharatiya
             Engineering Science and Technology Innovation University. Passionate
             about coding and creativity, I'm on my journey to becoming a skilled
             web developer, eager to build dynamic and user-friendly web

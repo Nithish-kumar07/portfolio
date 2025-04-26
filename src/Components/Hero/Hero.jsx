@@ -135,7 +135,7 @@ import myimage from '../../Images/nithish1.jpg';
 import picture from '../../Images/nithish2.jpg'
 import Resume from '../../Images/TCS RESUME.pdf';
 
-const professions = ["Web Developer", "MERN Full Stack Developer", "React.js Developer", "MongoDB Expert"];
+const professions = ["Web Developer", "React.js Developer", "MongoDB Expert"];
 const images = [Myimage, myimage, picture]
 
 const Hero = () => {
