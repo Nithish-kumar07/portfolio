@@ -13,7 +13,7 @@ app.use(cors({ origin: 'http://localhost:3000', credentials: true }));
 app.use(bodyParser.json());
 
 
-mongoose.connect("mongodb+srv://Nithishnani:9581674020@nithish.b1u97.mongodb.net/suretrust", 
+mongoose.connect(process.env.MONGO_URL, 
 { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log('Connected to MongoDB'))
   .catch((err) => console.error('Could not connect to MongoDB:', err));
