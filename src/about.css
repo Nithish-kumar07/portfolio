@@ -72,3 +72,16 @@
 .developer{
     color: green;
 }
+@media (max-width: 690px) {
+    .about-img img {
+        border-radius: 50px;
+        height: 100%;
+        width: 100%;
+    }
+    .about-content h2 {
+        line-height: 1;
+    }
+    .about-container {
+        gap: 65px;
+    }
+}
