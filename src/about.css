@@ -71,6 +71,7 @@
 }
 .developer{
     color: green;
+    line-height: 2;
 }
 @media (max-width: 690px) {
     .about-img img {
